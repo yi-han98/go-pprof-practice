@@ -2,7 +2,6 @@ package cat
 
 import (
 	"log"
-	"time"
 )
 
 type Cat struct {
@@ -35,8 +34,8 @@ func (c *Cat) Shit() {
 
 func (c *Cat) Pee() {
 	log.Println(c.Name(), "pee")
-
-	<-time.After(time.Second)
+	//
+	// <-time.After(time.Second)
 }
 
 func (c *Cat) Climb() {
