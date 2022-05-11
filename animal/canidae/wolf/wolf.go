@@ -28,12 +28,12 @@ func (w *Wolf) Eat() {
 }
 
 func (w *Wolf) Drink() {
-	log.Println(w.Name(), "drink")
-	for i := 0; i < 10; i++ {
-		go func() {
-			time.Sleep(30 * time.Second)
-		}()
-	}
+	// log.Println(w.Name(), "drink")
+	// for i := 0; i < 10; i++ {
+	// 	go func() {
+	// 		time.Sleep(30 * time.Second)
+	// 	}()
+	// }
 }
 
 func (w *Wolf) Shit() {

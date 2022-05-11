@@ -19,11 +19,11 @@ func (t *Tiger) Live() {
 }
 
 func (t *Tiger) Eat() {
-	log.Println(t.Name(), "eat")
-	loop := 10000000000
-	for i := 0; i < loop; i++ {
-		// do nothing
-	}
+	// log.Println(t.Name(), "eat")
+	// loop := 10000000000
+	// for i := 0; i < loop; i++ {
+	// 	// do nothing
+	// }
 }
 
 func (t *Tiger) Drink() {

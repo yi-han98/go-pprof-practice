@@ -1,11 +1,15 @@
 package animal
 
 import (
-	"github.com/wolfogre/go-pprof-practice/animal/canidae/dog"
-	"github.com/wolfogre/go-pprof-practice/animal/canidae/wolf"
-	"github.com/wolfogre/go-pprof-practice/animal/felidae/cat"
-	"github.com/wolfogre/go-pprof-practice/animal/felidae/tiger"
-	"github.com/wolfogre/go-pprof-practice/animal/muridae/mouse"
+	"go-pprof-practice/animal/canidae/dog"
+
+	"go-pprof-practice/animal/canidae/wolf"
+
+	"go-pprof-practice/animal/felidae/cat"
+
+	"go-pprof-practice/animal/felidae/tiger"
+
+	"go-pprof-practice/animal/muridae/mouse"
 )
 
 var (
